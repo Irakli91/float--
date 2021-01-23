@@ -1,11 +1,11 @@
 body {
-    padding: 13px 27px 27px 120px;
+    padding: 13px 27px 27px 150px;
     height: 100%;
     width: 100%;
 }
 .title {
     font-weight: bold;
-    text-align: center;
+    padding-left: 550px;
 }
 .font {
     font-family: 'Myriad Pro', sans-serif;
