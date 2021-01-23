@@ -1,0 +1,96 @@
+body {
+    padding: 13px 27px 27px 27px;
+    height: 100%;
+    width: 100%;
+}
+.title {
+    font-weight: bold;
+    text-align: center;
+}
+.font {
+    font-family: 'Myriad Pro', sans-serif;
+}
+.d-block {
+    display: block;
+}
+.float-right {
+    float: right;
+}
+.float-left {
+    float: left;
+}
+.yellow-box::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.box-text {
+    font-size: 18px;
+    color: #ffffff;
+}
+.main-container {
+    background-color: #22B573;
+    border-width: 4px;
+    border-color: #006837;
+    border-style: solid;
+    padding: 36px;
+    width: 1286px;
+    height: 100%;
+}
+.blue-box {
+    background-color: #29ABE2;
+    border-width: 4px;
+    border-color: #0071BC;
+    border-style: solid;
+    padding: 20px 36px 36px 36px;
+    width: 1200px;
+    height: 100%;
+}
+.yellow-box {
+    background-color: #FCEE21;
+    border-width: 4px;
+    border-color: #7AC943;
+    border-style: solid;
+    padding: 38px 30px;
+    width: 1126px;
+    height: 200px;
+}
+.white-box {
+    background-color: #FFFFFF;
+    border-width: 1px;
+    border-color: #93278F;
+    border-style: solid;
+    padding: 20px 25px;
+    width: 206px;
+    height: 120px;
+}
+.white-box:nth-child(even) {
+    margin-right: 75px;
+}
+.white-box:nth-child(1) {
+    margin-right: 75px;
+}
+.pink-box {
+    background-color: #ED1E79;
+    width: 155px;
+    height: 80px;
+    padding: 30px 37px;
+}
+.pink-text {
+    text-align: center;
+}
+.yellow-box-1 {
+    background-color: #FCEE21;
+    border-width: 4px;
+    border-color: #7AC943;
+    border-style: solid;
+    width: 1125px;
+    height: 299px;
+    padding-top: 122px;
+    margin-top: 35px;
+}
+.yellow-text {
+    font-size: 51px;
+    color: #ffffff;
+    text-align: center;
+}
